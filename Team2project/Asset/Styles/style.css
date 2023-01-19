@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+.work-managment-main {
+    width: 100vw;
+}
+
+
+.work-managementcontent {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-inline: 5rem;
+}
+
+.work-managementcontent1 {
+    background-image: url("../Img/BACKGROUND.png");
+    background-repeat:no-repeat;
+    background-position: left center;
+
+}
+.work-managementcontent1-image {
+    width: 50%;
+    height: 50%;
+}
+.work-managementcontent-headline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    gap: 30px;
+    padding-inline: 6rem;
+}
+
+.h1-wrapper {
+
+    background-image: url("../Img/Element.png");
+    background-size: 100% 30%;
+    background-repeat:no-repeat;
+    background-position: left bottom;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    margin-block: 15px;
+    width: 50%;
+}
+.work-managementcontentparagraph {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.h1-wrapper2 {
+    background-size: 80% 50%;
+    background-position: left bottom;
+    width: 70%;
+}
+
+
+.worktogethercontent2-image {
+    width: 40%;
+}
+
+.work-managmentcontent2-button {
+    width: 200px;
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .work-managementcontent {
+        flex-direction: column;
+        padding-inline: 0;
+        padding-block: 3rem;
+    }
+
+
+    .work-managementcontent1-image {
+        width: 80%;
+        height: 50%;
+    }
+
+    
+    .worktogethercontent2-image {
+         width: 80%;
+    }
+    
+    .h1-wrapper {
+        font-size: 20px;
+        width: 100%;
+    }
+
+}
